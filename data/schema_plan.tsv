@@ -1,0 +1,36 @@
+TABLE_NAME	COLUMN_NAME	COLUMN_TYPE	IS_NULLABLE	COLUMN_KEY
+after_sales_raw	service_ticket	varchar(20)	NO	PRI
+after_sales_raw	vin	varchar(20)	NO	
+after_sales_raw	customer_id	int	NO	
+after_sales_raw	model	varchar(100)	NO	
+after_sales_raw	service_date	date	NO	
+after_sales_raw	service_type	varchar(10)	NO	
+after_sales_raw	created_at	datetime	NO	
+customer_address	id	bigint	NO	PRI
+customer_address	customer_id	bigint	NO	
+customer_address	address	text	YES	
+customer_address	city	varchar(255)	YES	
+customer_address	province	varchar(255)	YES	
+customer_address	created_at	datetime	YES	
+customer_service_yearly	periode	varchar(4)	NO	PRI
+customer_service_yearly	vin	varchar(20)	NO	PRI
+customer_service_yearly	customer_name	varchar(255)	NO	
+customer_service_yearly	address	text	YES	
+customer_service_yearly	count_service	int	NO	
+customer_service_yearly	priority	varchar(10)	NO	
+customer_service_yearly	last_updated	datetime	NO	
+customers_raw	id	bigint	YES	
+customers_raw	name	text	YES	
+customers_raw	dob	date	YES	
+customers_raw	created_at	datetime	YES	
+sales_monthly	periode	varchar(7)	NO	PRI
+sales_monthly	class	varchar(10)	NO	PRI
+sales_monthly	model	varchar(100)	NO	PRI
+sales_monthly	total_sales	bigint	NO	
+sales_monthly	last_updated	datetime	NO	
+sales_raw	vin	text	YES	
+sales_raw	customer_id	bigint	YES	
+sales_raw	model	text	YES	
+sales_raw	invoice_date	date	YES	
+sales_raw	price	bigint	YES	
+sales_raw	created_at	datetime	YES	

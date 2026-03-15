@@ -1,0 +1,22 @@
+{
+  "province": ["SELATAN", "BARAT", "TIMUR", "PUSAT", "UTARA"],
+  "city": ["SELATAN", "BARAT", "TIMUR", "PUSAT", "UTARA"],
+  "abbreviate_map": {
+    "TANGSEL": "TANGERANG SELATAN",
+    "JAKPUS": "JAKARTA PUSAT",
+    "JAKSEL": "JAKARTA SELATAN",
+    "JAKBAR": "JAKARTA BARAT",
+    "JAKTIM": "JAKARTA TIMUR",
+    "JAKUT": "JAKARTA UTARA"
+  },
+  "province_prefix": [
+    "JAWA",
+    "SUMATERA",
+    "KALIMANTAN",
+    "SULAWESI",
+    "PAPUA",
+    "NUSA TENGGARA",
+    "MALUKU"
+  ],
+  "city_prefix": ["TANGERANG", "JAKARTA", "BANDUNG", "PEKALONGAN", "MAGELANG"]
+}
